@@ -1,0 +1,56 @@
+/*============ RESET ====================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+
+/* ================== MAIN-CONTAINER =================*/
+
+.main-container {
+  width: 100%;
+  height: 630px;
+  border: 10rem;
+  background-color: rgb(209, 166, 166);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+#container{
+  width: 100%;
+  border-radius: 25px;
+  height: 21rem;
+  
+}
+/* ================== left-CONTAINER =================*/
+.left-container{
+  background-color: blue;
+}
+/* ================== Rigth-CONTAINER =================*/
+.rigth-container{
+  background-color: blueviolet;
+  
+}
+
+/*========IMAGEM==========*/
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+/**/
+/**/
+/**/
+/**/
